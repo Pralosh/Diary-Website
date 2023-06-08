@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Nunito&display=swap" rel="stylesheet">
+        <title>Diary</title>
+    </head>
+    <body class="screen">
+        <div class="frame">
+            <h1> Diary Entries </h1>
+            <hr>
+            <table>
+                <tr>
+                    <th>Content</th>
+                    <th>Timestamp</th>
+                    <th>Action</th>
+                </tr>
+            </table><br>
+            <h4>Add Entry</h4>
+            <hr>
+            <form>
+                <div class="error" style="background-color: red;"></div><br>
+                <label for="content">Content:</label><br>
+                <input type="text" id="content" required/>
+                <input type="submit" value="ADD" class="button"><br>
+            </form><br><br>
+            [ <a href="/">HOME</a> ]<br>
+        </div>
+    </body>
+    <script src="js/diary.js"></script>
+</html>

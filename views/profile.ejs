@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300&family=Nunito&display=swap" rel="stylesheet">
+        <title>Profile</title>
+    </head>
+    <body class="screen">
+        <div class="frame" id="profile">
+            <h1> Profile  </h1>
+            <hr>
+            <form >
+                <div class="error" style="color: red;"></div><br>
+                <label for="username">Username</label><br>
+                <input type="text" id="username" value=<%=user.username%> disabled/><br><br>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" value=<%=user.name%> required/><br><br>
+                <label for="email">Email</label><br>
+                <input type="text" id="email" value=<%=user.email%> required/><br><br>
+                <input type="submit" value="UPDATE"><br>
+            </form><br><br>
+            [ <a href="/">HOME</a> ]<br>
+        </div>
+    </body>
+    <script src="js/profile.js"></script>
+</html>
